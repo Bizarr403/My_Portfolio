@@ -25,7 +25,6 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 
-import { downloadFiles } from "@/components/barrel";
 import About from "@/components/AboutCard";
 import Link from "next/link";
 
