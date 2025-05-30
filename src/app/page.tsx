@@ -20,6 +20,7 @@ import {
 
 import About from "@/components/AboutCard";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -57,7 +58,7 @@ export default function Home() {
       >
         <article className="grid grid-rows-2 place-content-center ">
           <h1 className="text-white text-center text-4xl ">Basic Facts</h1>
-          <img
+          <Image
             src="/profile.png"
             alt="profile"
             className="rounded-full w-60 h-60 mt-0"
