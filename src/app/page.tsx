@@ -27,7 +27,7 @@ export default function Home() {
       <section className="  grid grid-cols-2 gap-9 place-items-center mt-4 p-5 bg-zinc-100 h-[75vh]">
         <article className="flex flex-wrap items-center justify-center pl-1  ">
           <h1 className=" text-left text-4xl text-black  ">
-            Hi, I'm #Name!
+            Hi, Omolade here!
             <span className="text-blue-400 text-shadow-black block ">
               Software <span className="text-black">Engineer</span>
             </span>
@@ -85,7 +85,7 @@ export default function Home() {
                 </li>
               </ul>
               <p className="text-white text-center text-[16pt]">
-                Let's Connect
+                Let us Connect
               </p>
             </div>
           </div>
