@@ -195,10 +195,8 @@ export default function Home() {
             </CardHeader>
             <CardContent className="flex-col justify-center items-center  w-full h-full">
               <ul className="list-disc">
-                <li>A recreation of the popular 80's video game</li>
-                <li>
-                  Created using python and the powerful 2d-library "pygame"
-                </li>
+                <li>A recreation of the popular 80s video game</li>
+                <li>Created using python and the powerful 2d-library pygame</li>
               </ul>
             </CardContent>
           </Card>
@@ -236,8 +234,9 @@ export default function Home() {
 
             <CardContent className="flex-col justify-center items-center  w-full h-full">
               <ul className="list-disc">
-                <li>A recreation of the popular game "2048"</li>
+                <li>A recreation of the popular game 2048</li>
                 <li>Implemented using python and the popular pygame library</li>
+                <li>Credit to Tech with Tim for the tutorial</li>
               </ul>
             </CardContent>
           </Card>
@@ -275,7 +274,7 @@ export default function Home() {
             <CardContent className="flex-col justify-center items-center  w-full h-full">
               <ul className="list-disc">
                 <li>
-                  Allows users leave reviews about books they've read while
+                  Allows users leave reviews about books they have read while
                   getting the book cover from an API
                 </li>
                 <li>Focused on functionality over form</li>
@@ -365,7 +364,7 @@ export default function Home() {
             <CardContent className="flex-col justify-center items-center  w-full h-full">
               <ul className="list-disc">
                 <li>My journey so far in this space</li>
-                <li>Well you're looking at it</li>
+                <li>Well you are looking at it</li>
                 <li>
                   Actually the second iteration of a personal portfolio website.
                 </li>
