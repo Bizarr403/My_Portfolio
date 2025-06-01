@@ -62,6 +62,8 @@ export default function Home() {
             src="/profile.png"
             alt="profile"
             className="rounded-full w-60 h-60 mt-0"
+            width={60}
+            height={60}
           />
           <div className="flex-col items-center justify-center">
             <div className="flex-col ">
@@ -121,7 +123,7 @@ export default function Home() {
                 <CardTitle className="text-center text-gray-100 text-2xl">
                   Recipedia
                 </CardTitle>
-                <div className="flex gap-2">
+                <div className="flex gap-2 w-fit">
                   <Badge className="font-semibold bg-blue-500 text-white rounded-[8px] text-[8pt] px-2">
                     2024
                   </Badge>
@@ -133,7 +135,7 @@ export default function Home() {
                       <TooltipProvider>
                         <Tooltip>
                           <TooltipTrigger>
-                            <Code2 className="h-4 w-4" />
+                            <Code2 className="h-fit w-fit" />
                           </TooltipTrigger>
                           <TooltipContent>View code</TooltipContent>
                         </Tooltip>
@@ -159,25 +161,25 @@ export default function Home() {
                   Space Invaders
                 </CardTitle>
 
-                <div className="flex gap-2">
-                  <Badge className="font-semibold bg-blue-500 text-white rounded-[8px] text-[8pt] px-2">
+                <div className="flex gap-2 w-fit">
+                  <Badge className="font-semibold bg-blue-500 text-white rounded-[8px] text-[8pt] px-2 h-fit w-fit">
                     2023
                   </Badge>
-                  <Badge className="font-light bg-red-500 text-white rounded-[8px] text-[8pt] px-2">
+                  <Badge className="font-light bg-red-500 text-white rounded-[8px] text-[8pt] px-2 h-fit w-fit">
                     <Gamepad2 className="h-4 w-4" />
                   </Badge>
-                  <Badge className="font-semibold bg-purple-800 text-white rounded-[6px] text-[8pt] px-2">
+                  <Badge className="font-semibold bg-purple-800 text-white rounded-[6px] text-[8pt] px-2 h-fit w-fit">
                     Python
                   </Badge>
                   <Link
                     href="https://github.com/Bizarr403/SpaceInvaders/tree/main"
                     className="flex justify-center items-center"
                   >
-                    <Badge className="font-light bg-green-500 text-white rounded-[8px] text-[8pt] px-2">
+                    <Badge className="font-light bg-green-500 text-white rounded-[8px] text-[8pt] px-2 ">
                       <TooltipProvider>
                         <Tooltip>
                           <TooltipTrigger>
-                            <Code2 className="h-4 w-4" />
+                            <Code2 className="h-fit w-fit" />
                           </TooltipTrigger>
                           <TooltipContent>View code</TooltipContent>
                         </Tooltip>
@@ -200,14 +202,14 @@ export default function Home() {
                 <CardTitle className="text-center text-2xl text-gray-100">
                   2048
                 </CardTitle>
-                <div className="flex gap-2">
-                  <Badge className="font-semibold bg-blue-500 text-white rounded-[8px] text-[8pt] px-2">
+                <div className="flex gap-2 w-fit">
+                  <Badge className="font-semibold bg-blue-500 text-white rounded-[8px] text-[8pt] px-2 h-fit w-fit">
                     2024
                   </Badge>
                   <Badge className="font-light bg-red-500 text-white rounded-[8px] text-[8pt] px-2">
-                    <Gamepad2 className="h-4 w-4" />
+                    <Gamepad2 className="h-fit w-fit" />
                   </Badge>
-                  <Badge className="font-semibold bg-purple-800 text-white rounded-[6px] text-[8pt] px-2">
+                  <Badge className="font-semibold bg-purple-800 text-white rounded-[6px] text-[8pt] px-2 h-fit w-fit">
                     Python
                   </Badge>
                   <Link href="/" className="flex justify-center items-center">
@@ -215,7 +217,7 @@ export default function Home() {
                       <TooltipProvider>
                         <Tooltip>
                           <TooltipTrigger>
-                            <Code2 className="h-4 w-4" />
+                            <Code2 className="h-fit w-fit" />
                           </TooltipTrigger>
                           <TooltipContent>View code</TooltipContent>
                         </Tooltip>
@@ -240,11 +242,11 @@ export default function Home() {
                 <CardTitle className="text-center text-gray-100 text-2xl">
                   BookRev
                 </CardTitle>
-                <div className="flex gap-2">
-                  <Badge className="font-semibold bg-blue-500 text-white rounded-[8px] text-[8pt] px-2">
+                <div className="flex gap-2 w-fit">
+                  <Badge className="font-semibold bg-blue-500 text-white rounded-[8px] text-[8pt] px-2 h-fit w-fit">
                     2024
                   </Badge>
-                  <Badge className="font-semibold bg-purple-800 text-white rounded-[6px] text-[8pt] px-2">
+                  <Badge className="font-semibold bg-purple-800 text-white rounded-[6px] text-[8pt] px-2 h-fit w-fit">
                     Node.Js
                   </Badge>
                   <Link
@@ -255,7 +257,7 @@ export default function Home() {
                       <TooltipProvider>
                         <Tooltip>
                           <TooltipTrigger>
-                            <Code2 className="h-4 w-4" />
+                            <Code2 className="h-fit w-fit" />
                           </TooltipTrigger>
                           <TooltipContent>View code</TooltipContent>
                         </Tooltip>
@@ -282,14 +284,14 @@ export default function Home() {
                 <CardTitle className="text-center text-gray-100 text-2xl">
                   BattleShips
                 </CardTitle>
-                <div className="flex gap-2">
-                  <Badge className="font-semibold bg-blue-500 text-white rounded-[8px] text-[8pt] px-2">
+                <div className="flex gap-2 w-fit">
+                  <Badge className="font-semibold bg-blue-500 text-white rounded-[8px] text-[8pt] px-2 h-fit w-fit">
                     2021
                   </Badge>
-                  <Badge className="font-light bg-red-500 text-white rounded-[8px] text-[8pt] px-2">
-                    <Gamepad2 className="h-4 w-4" />
+                  <Badge className="font-light bg-red-500 text-white rounded-[8px] text-[8pt] px-2 ">
+                    <Gamepad2 className="h-fit w-fit" />
                   </Badge>
-                  <Badge className="font-semibold bg-purple-800 text-white rounded-[6px] text-[8pt] px-2">
+                  <Badge className="font-semibold bg-purple-800 text-white rounded-[6px] text-[8pt] px-2 h-fit w-fit">
                     Python
                   </Badge>
                   <Link
@@ -300,7 +302,7 @@ export default function Home() {
                       <TooltipProvider>
                         <Tooltip>
                           <TooltipTrigger>
-                            <Code2 className="h-4 w-4" />
+                            <Code2 className="h-fit w-fit" />
                           </TooltipTrigger>
                           <TooltipContent>View code</TooltipContent>
                         </Tooltip>
@@ -327,14 +329,14 @@ export default function Home() {
                 <CardTitle className="text-center text-gray-500 text-2xl">
                   My Portfolio
                 </CardTitle>
-                <div className="flex gap-2">
-                  <Badge className="font-semibold bg-blue-500 text-white rounded-[8px] text-[8pt] px-2">
+                <div className="flex gap-2 w-fit">
+                  <Badge className="font-semibold bg-blue-500 text-white rounded-[8px] text-[8pt] px-2 h-fit w-fit">
                     2025
                   </Badge>
                   <Badge className="font-light bg-red-500 text-white rounded-[8px] text-[8pt] px-2">
-                    <File className="h-4 w-4" />
+                    <File className="h-fit w-fit" />
                   </Badge>
-                  <Badge className="font-semibold bg-purple-800 text-white rounded-[6px] text-[8pt] px-2">
+                  <Badge className="font-semibold bg-purple-800 text-white rounded-[6px] text-[8pt] px-2 h-fit w-fit">
                     NextJS
                   </Badge>
                   <Link
@@ -345,7 +347,7 @@ export default function Home() {
                       <TooltipProvider>
                         <Tooltip>
                           <TooltipTrigger>
-                            <Code2 className="h-4 w-4" />
+                            <Code2 className="h-fit w-fit" />
                           </TooltipTrigger>
                           <TooltipContent>View code</TooltipContent>
                         </Tooltip>
