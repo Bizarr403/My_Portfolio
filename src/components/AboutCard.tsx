@@ -42,9 +42,11 @@ export default function About() {
                 />
               </CarouselItem>
               <CarouselItem className="flex justify-center items-start">
-                <ul className="text-white  p-0 m-0 list-disc w-fit text-wrap text-[8pt] sm:text-[10pt]">
-                  <li>Started in 2020 with python</li>
-                  <li></li>
+                <ul className="text-white  p-0 m-0 list-disc w-fit text-wrap text-[8pt] ">
+                  <li>Started in 2020 with Python </li>
+                  <li>Learnt pygame as my first library</li>
+                  <li>Started JavaScript in 2023 </li>
+                  <li>2024 Web development bootcamp by Angela Yu </li>
                 </ul>
               </CarouselItem>
             </CarouselContent>
@@ -130,8 +132,9 @@ export default function About() {
               </CarouselItem>
               <CarouselItem className="flex justify-center items-start">
                 <ul className="text-white  p-0 m-0 list-disc w-fit text-wrap text-[8pt] sm:text-[10pt]">
-                  <li>Football</li>
-                  <li>Ups and downs while learning</li>
+                  <li>NodeJS</li>
+                  <li>NextJS</li>
+                  <li>Django</li>
                 </ul>
               </CarouselItem>
             </CarouselContent>
