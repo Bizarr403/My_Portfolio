@@ -8,6 +8,7 @@ import {
   Gamepad2,
   Download,
   File,
+  Twitter,
 } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -67,26 +68,28 @@ export default function Home() {
           />
           <div className="flex-col items-center justify-center">
             <div className="flex-col ">
-              <ul className="flex gap-3 justify-evenly mt-2 mb-2">
-                <li>
-                  <Instagram className="stroke-purple-700 hover:stroke-purple-400 delay-75 ease-in-out duration-100" />
-                </li>
-                <li>
+              <div className="flex gap-5 md:gap-3 justify-evenly mt-2 mb-2">
+                <Link href="https://x.com/bizarrocodes" target="blank">
+                  <Twitter className="stroke-sky-300 hover:stroke-sky-200 delay-75 ease-in-out duration-100" />
+                </Link>
+                <Link href="https://www.olutayoda@gmail.com">
                   <Mail className="stroke-red-700 hover:stroke-red-400 delay-75 ease-in-out duration-100" />
-                </li>
-                <li>
+                </Link>
+                <Link
+                  href="https://www.linkedin.com/in/omolade-dayo-ajayi"
+                  target="blank"
+                >
                   <Linkedin className="stroke-blue-700 hover:stroke-blue-400 delay-75 ease-in-out duration-100" />
-                </li>
-                <li>
+                </Link>
+                <Link href="https://wa.me/qr/H7YNLCP2YUVCA1">
                   <Phone className="stroke-green-700 hover:stroke-green-400 delay-75 ease-in-out duration-100 " />
-                </li>
-                <li>
-                  <Download
-                    className="stroke-gray-600 hover:stroke-gray-400 delay-75 ease-in-out duration-100 "
-                    //onClick={downloadFiles}
-                  />
-                </li>
-              </ul>
+                </Link>
+
+                <Download
+                  className="stroke-gray-600 hover:stroke-gray-400 delay-75 ease-in-out duration-100 "
+                  //onClick={downloadFiles}
+                />
+              </div>
               <p className="text-white text-center text-[16pt]">
                 Let us Connect
               </p>
