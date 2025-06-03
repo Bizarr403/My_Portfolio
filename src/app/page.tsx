@@ -21,7 +21,6 @@ import {
 import About from "@/components/AboutCard";
 import Link from "next/link";
 import Image from "next/image";
-
 export default function Home() {
   return (
     <div>
@@ -84,10 +83,12 @@ export default function Home() {
                   <Phone className="stroke-green-700 hover:stroke-green-400 delay-75 ease-in-out duration-100 " />
                 </Link>
 
-                <Download
-                  className="stroke-gray-600 hover:stroke-gray-400 delay-75 ease-in-out duration-100 "
-                  //onClick={downloadFiles}
-                />
+                <Link
+                  href="https://storage.rxresu.me/clx80einu0rsu13z0sae1l40k/resumes/my-resume.pdf"
+                  target="blank"
+                >
+                  <Download className="stroke-gray-600 hover:stroke-gray-400 delay-75 ease-in-out duration-100 " />
+                </Link>
               </div>
               <p className="text-white text-center text-[16pt]">
                 Let us Connect
