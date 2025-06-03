@@ -1,6 +1,5 @@
 import * as motion from "motion/react-client";
 import {
-  Instagram,
   Mail,
   Linkedin,
   Phone,
