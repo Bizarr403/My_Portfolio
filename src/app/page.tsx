@@ -343,7 +343,7 @@ export default function Home() {
                     NextJS
                   </Badge>
                   <Link
-                    href="https://github.com/Bizarr403/Battleships"
+                    href="https://github.com/Bizarr403/My_Portfolio"
                     className="flex justify-center items-center"
                   >
                     <Badge className="font-light bg-green-500 text-white rounded-[8px] text-[8pt] px-2">
@@ -367,6 +367,51 @@ export default function Home() {
                 <li>
                   Actually the second iteration of a personal portfolio website.
                 </li>
+              </ul>
+            </CardContent>
+          </Card>
+          <Card className="bg-blue-400/30 backdrop-blur-md shadow-lg border-transparent w-full h-full grid grid-rows-2 p-8  place-content-center mt-3 md:col-span-3 place-self-center md:row-span-2">
+            <CardHeader className="flex justify-center items-start w-full">
+              <div className="mt-2  grid grid-rows-2 gap-2 h-full w-full">
+                <CardTitle className="text-left text-gray-500 text-2xl">
+                  Frugal
+                </CardTitle>
+                <div className="flex gap-2 items-center w-full">
+                  <Badge className="font-semibold bg-blue-500 text-white rounded-[8px] text-[8pt] px-2 h-fit">
+                    2025
+                  </Badge>
+                  <Badge className="font-light bg-red-500 text-white rounded-[8px] text-[8pt] px-2 h-fit">
+                    <File className="h-4 w-4" />
+                  </Badge>
+                  <Badge className="font-semibold bg-purple-800 text-white rounded-[6px] text-[8pt] px-2 h-fit">
+                    NextJS
+                  </Badge>
+                  <Link
+                    href="https://github.com/Bizarr403/frugal"
+                    className="flex justify-center items-center"
+                  >
+                    <Badge className="font-light bg-green-500 text-white rounded-[8px] text-[8pt] px-2">
+                      <TooltipProvider>
+                        <Tooltip>
+                          <TooltipTrigger>
+                            <Code2 className="h-4 w-4" />
+                          </TooltipTrigger>
+                          <TooltipContent>View code</TooltipContent>
+                        </Tooltip>
+                      </TooltipProvider>
+                    </Badge>
+                  </Link>
+                </div>
+              </div>
+            </CardHeader>
+            <CardContent className="flex-col justify-center items-center  w-full h-full">
+              <ul className="list-disc">
+                <li>
+                  A budget app built with my personal experience with funds in
+                  mind
+                </li>
+                <li>Easy to use interface</li>
+                <li>Provides visual representation of your monthly budgets.</li>
               </ul>
             </CardContent>
           </Card>
